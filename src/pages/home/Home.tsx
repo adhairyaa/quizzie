@@ -6,9 +6,11 @@ function Home() {
     <>
       <Navbar />
       <div>Home </div>
-      {allQuiz.quizes.map((quiz) => (
-        <QuizCard coverImage={quiz.image} title={quiz.name} />
-      ))}
+      <div className="quizes-container">
+        {allQuiz.quizes.map((quiz) => (
+          <QuizCard coverImage={quiz.image} title={quiz.name} />
+        ))}
+      </div>
     </>
   );
 }
