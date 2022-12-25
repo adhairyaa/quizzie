@@ -2,6 +2,19 @@
   width: 100px;
   height: 20vh;
 }
-div {
-  background-color: aquamarine;
+.play-quiz {
+  background-color: #bad7e9;
+  padding-top: 30%;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.quiz-options button {
+  width: 90%;
+  background-color: #eb455f;
+  color: #fcffe7;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
 }

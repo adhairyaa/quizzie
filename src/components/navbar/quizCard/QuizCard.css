@@ -1,6 +1,10 @@
 .quiz-card {
   height: 200px;
   width: 250px;
+  margin: 20px;
+  position: relative;
+  z-index: -2;
+  top: 200px;
 }
 .quiz-img {
   height: 100%;
@@ -8,4 +12,12 @@
 }
 
 .quiz-title {
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  z-index: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

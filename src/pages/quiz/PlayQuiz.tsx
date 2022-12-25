@@ -25,7 +25,8 @@ function PlayQuiz() {
   } else {
     return (
       <div className="play-quiz">
-        <div className="quiz-score">{score}</div>
+        {currentQuestionNumber + 1 === quizData.questions.length && useNavigate}
+        <div className="quiz-score">Score:{score}</div>
         <img
           src={quizData.questions[currentQuestionNumber].questionImage}
           alt={quizData.name}

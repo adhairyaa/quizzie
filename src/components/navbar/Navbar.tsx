@@ -5,7 +5,7 @@ export function Navbar() {
   const { theme, toggleTheme } = useTheme();
   return (
     <div className="navbar">
-      Navbar
+      <div>Home</div>
       <button onClick={toggleTheme as MouseEventHandler<HTMLButtonElement>}>
         {theme}
       </button>

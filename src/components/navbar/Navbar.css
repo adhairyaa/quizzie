@@ -1,5 +1,19 @@
 .navbar {
   height: 10vh;
   width: 100%;
-  background: red;
+  background: rgb(186, 215, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(186, 215, 233, 1) 23%,
+    rgba(253, 29, 71, 1) 49%,
+    rgba(252, 255, 231, 1) 100%
+  );
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
 }
+
+/* primary color :#EB455F
+primary light : #FCFFE7
+light 2 : #BAD7E9 */

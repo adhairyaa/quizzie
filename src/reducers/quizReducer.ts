@@ -3,10 +3,10 @@ export const quizReducer = (state: any, action: any) => {
     case "SET_QUIZ": {
       return { ...state, quizData: action.payload };
     }
-    case "OPTION_CLICKED": {
+    case "NEXT_QUESTION": {
       return {
         ...state,
-        currentQuestionNumber: state.currentQuestionNumber + action.payload,
+        currentQuestionNumber: state.currentQuestionNumber + 1,
       };
     }
     default:
