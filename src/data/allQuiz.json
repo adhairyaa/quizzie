@@ -6,6 +6,7 @@
       "questions": [
         {
           "question": "How many avengers were there in first Avengers movie released in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 5,
           "options": [
             {
@@ -20,6 +21,7 @@
         },
         {
           "question": "What was Dr. Strange doing during the fight of New York in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 15,
           "options": [
             {
@@ -37,9 +39,11 @@
     {
       "name": "Spiderman Universe",
       "image": "https://images.pexels.com/photos/4061662/pexels-photo-4061662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
       "questions": [
         {
           "question": "How many avengers were there in first Avengers movie released in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 5,
           "options": [
             {
@@ -54,6 +58,7 @@
         },
         {
           "question": "What was Dr. Strange doing during the fight of New York in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 15,
           "options": [
             {
@@ -71,9 +76,11 @@
     {
       "name": "DC Universe",
       "image": "https://images.pexels.com/photos/8421979/pexels-photo-8421979.jpeg?auto=compress&cs=tinysrgb&w=600",
+
       "questions": [
         {
           "question": "How many avengers were there in first Avengers movie released in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 5,
           "options": [
             {
@@ -88,6 +95,7 @@
         },
         {
           "question": "What was Dr. Strange doing during the fight of New York in 2012?",
+          "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 15,
           "options": [
             {

@@ -7,8 +7,8 @@ function Home() {
       <Navbar />
       <div>Home </div>
       <div className="quizes-container">
-        {allQuiz.quizes.map((quiz) => (
-          <QuizCard coverImage={quiz.image} title={quiz.name} />
+        {allQuiz.quizes.map((quiz, index) => (
+          <QuizCard coverImage={quiz.image} title={quiz.name} index={index} />
         ))}
       </div>
     </>
