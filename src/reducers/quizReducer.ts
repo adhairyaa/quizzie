@@ -9,6 +9,18 @@ export const quizReducer = (state: any, action: any) => {
         currentQuestionNumber: state.currentQuestionNumber + 1,
       };
     }
+    case "MANAGE_SCORE": {
+      return {
+        ...state,
+        score: state.score + action.payload,
+      };
+    }
+    case "SAVE_SELECTED_OPTION": {
+      return {
+        ...state,
+        selectedOptions: [...state.selectedOptions, action.payload],
+      };
+    }
     default:
       return state;
   }

@@ -4,6 +4,7 @@ const initialState = {
   quizData: null,
   currentQuestionNumber: 0,
   score: 0,
+  selectedOptions: [],
 };
 
 const QuizContext = createContext<{ state: any; dispatch: Function }>({

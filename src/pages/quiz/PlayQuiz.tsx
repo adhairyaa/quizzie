@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useQuiz } from "../../context/quizContext/QuizProvider";
 import allQuiz from "../../data/allQuiz.json";
 import "./PlayQuiz.css";
@@ -13,8 +13,13 @@ function PlayQuiz() {
     dispatch({ type: "SET_QUIZ", payload: allQuiz.quizes[Number(quizNumber)] });
   }, []);
   const handleOptionClicked = (optionSelected: any) => {
-    // quizData.questions[currentQuestionNumber].option
-    // dispatch({type:"MANAGE_SCORE",paylaod:})
+    const selectedOptionData = quizData.questions[
+      currentQuestionNumber
+    ].options.find((option: any) => option.text === optionSelected);
+
+    selectedOptionData.isRight
+      ? dispatch({ type: "MANAGE_SCORE", paylaod: 5 })
+      : dispatch({ type: "MANAGE_SCORE", paylaod: -5 });
 
     dispatch({ type: "NEXT_QUESTION" });
 
@@ -25,7 +30,6 @@ function PlayQuiz() {
   } else {
     return (
       <div className="play-quiz">
-        {currentQuestionNumber + 1 === quizData.questions.length && useNavigate}
         <div className="quiz-score">Score:{score}</div>
         <img
           src={quizData.questions[currentQuestionNumber].questionImage}
