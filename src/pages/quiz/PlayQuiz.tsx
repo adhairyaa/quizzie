@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useQuiz } from "../../context/quizContext/QuizProvider";
 import allQuiz from "../../data/allQuiz.json";
 import "./PlayQuiz.css";
@@ -8,10 +8,11 @@ function PlayQuiz() {
   const { quizNumber } = useParams();
   const { state, dispatch } = useQuiz();
   const { quizData, currentQuestionNumber, score } = state;
-
+  const navigate = useNavigate();
   useEffect(() => {
     dispatch({ type: "SET_QUIZ", payload: allQuiz.quizes[Number(quizNumber)] });
   }, []);
+
   const handleOptionClicked = (optionSelected: any) => {
     const selectedOptionData = quizData.questions[
       currentQuestionNumber
@@ -28,6 +29,7 @@ function PlayQuiz() {
   if (quizData === null) {
     return <div>loading...</div>;
   } else {
+    currentQuestionNumber === quizData.questions.length && navigate("/result");
     return (
       <div className="play-quiz">
         <div className="quiz-score">Score:{score}</div>

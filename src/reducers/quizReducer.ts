@@ -12,7 +12,7 @@ export const quizReducer = (state: any, action: any) => {
     case "MANAGE_SCORE": {
       return {
         ...state,
-        score: state.score + action.payload,
+        score: state.score + 5,
       };
     }
     case "SAVE_SELECTED_OPTION": {
