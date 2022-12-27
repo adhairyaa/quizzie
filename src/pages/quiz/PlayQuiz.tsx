@@ -11,7 +11,7 @@ function PlayQuiz() {
   const navigate = useNavigate();
   useEffect(() => {
     dispatch({ type: "SET_QUIZ", payload: allQuiz.quizes[Number(quizNumber)] });
-  }, []);
+  }, [dispatch, quizNumber]);
 
   const handleOptionClicked = (optionSelected: any) => {
     const selectedOptionData = quizData.questions[

@@ -2,19 +2,14 @@
   width: 100px;
   height: 20vh;
 }
-.play-quiz {
-  background-color: #bad7e9;
-  padding-top: 30%;
-  height: 100vh;
-  font-size: 2rem;
-}
 
 .quiz-options button {
   width: 90%;
-  background-color: #eb455f;
-  color: #fcffe7;
+  background-color: #bad7e9;
+  color: #eb455f;
   text-decoration: none;
   border: none;
   border-radius: 5px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  margin: 10px;
 }

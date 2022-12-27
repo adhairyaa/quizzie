@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.light {
+  padding-top: 130px;
+  background-color: #fcffe7;
+  height: 100vh;
+  color: black;
+}
+.dark {
+  background-color: #eb455f;
+  color: #fcffe7;
+  height: 100vh;
+  padding-top: 130px;
+}
