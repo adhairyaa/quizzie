@@ -1,8 +1,28 @@
 .quizes-container {
   display: flex;
-  flex-flow: row;
+  flex-direction: column;
+}
+.quiz-heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.quiz-heading span {
+  font-size: 3rem;
+  font-weight: bolder;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 255, 231, 1) 13%,
+    rgba(253, 29, 71, 1) 49%,
+    rgba(252, 255, 231, 1) 100%
+  );
+}
+.quiz-types {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
   justify-content: center;
+  position: absolute;
 }

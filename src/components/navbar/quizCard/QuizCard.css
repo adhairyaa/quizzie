@@ -1,6 +1,6 @@
 .quiz-card {
   height: 200px;
-  width: 250px;
+  width: 350px;
   margin: 20px;
   position: relative;
   z-index: 1;
@@ -9,6 +9,7 @@
 .quiz-img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .quiz-title {
@@ -20,4 +21,5 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-weight: bolder;
 }
