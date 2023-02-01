@@ -13,6 +13,18 @@
   justify-content: space-between;
   top: 0;
 }
+.home-icon img {
+  width: 70px;
+  height: 70px;
+}
+.themeButton {
+  background-color: transparent;
+  border: none;
+}
+.themeButton img {
+  width: 70px;
+  height: 70px;
+}
 
 /* primary color :#EB455F
 primary light : #FCFFE7
