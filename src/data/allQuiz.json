@@ -14,6 +14,14 @@
               "isRight": false
             },
             {
+              "text": "11",
+              "isRight": false
+            },
+            {
+              "text": "35",
+              "isRight": false
+            },
+            {
               "text": "6",
               "isRight": true
             }
@@ -38,35 +46,43 @@
     },
     {
       "name": "Spiderman Universe",
-      "image": "https://images.pexels.com/photos/4061662/pexels-photo-4061662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "image": "https://images.pexels.com/photos/8421979/pexels-photo-8421979.jpeg?auto=compress&cs=tinysrgb&w=600",
 
       "questions": [
         {
-          "question": "How many avengers were there in first Avengers movie released in 2012?",
+          "question": "What is Spider-Man's real name?",
           "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 5,
           "options": [
             {
-              "text": "22",
+              "text": "Bruce Wayne",
               "isRight": false
             },
             {
-              "text": "6",
+              "text": "Clark Kent",
+              "isRight": false
+            },
+            {
+              "text": "Peter Parker",
               "isRight": true
             }
           ]
         },
         {
-          "question": "What was Dr. Strange doing during the fight of New York in 2012?",
+          "question": "Which city does Spider-Man protect from crime?",
           "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 15,
           "options": [
             {
-              "text": "getting trained as master of the mystic arts",
+              "text": "London",
               "isRight": false
             },
             {
-              "text": "performing surgery as a real doctor",
+              "text": "Los Angeles",
+              "isRight": false
+            },
+            {
+              "text": "New Yor City",
               "isRight": true
             }
           ]
@@ -75,35 +91,39 @@
     },
     {
       "name": "DC Universe",
-      "image": "https://images.pexels.com/photos/8421979/pexels-photo-8421979.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/4061662/pexels-photo-4061662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
       "questions": [
         {
-          "question": "How many avengers were there in first Avengers movie released in 2012?",
+          "question": "Which supervillain was once the Iranian Ambassador to the U.N.?",
           "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 5,
           "options": [
             {
-              "text": "22",
+              "text": "Cat Women",
               "isRight": false
             },
             {
-              "text": "6",
+              "text": "Reverse Flash",
+              "isRight": false
+            },
+            {
+              "text": "Joker",
               "isRight": true
             }
           ]
         },
         {
-          "question": "What was Dr. Strange doing during the fight of New York in 2012?",
+          "question": "Superman originated from a planet called Oa.",
           "questionImage": "https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg",
           "points": 15,
           "options": [
             {
-              "text": "getting trained as master of the mystic arts",
+              "text": "True",
               "isRight": false
             },
             {
-              "text": "performing surgery as a real doctor",
+              "text": "False",
               "isRight": true
             }
           ]
